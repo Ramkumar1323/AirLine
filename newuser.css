@@ -1,0 +1,46 @@
+.a{
+    margin-top: 60px;
+    margin-left: 430px;
+    margin-right: 430px;
+   border-radius: 15px;
+   padding-right: 23px;
+    box-shadow: 5px 5px 10px 15px rgba(103, 232, 236, 0.705);
+    background-color: black;
+    color: white;
+    font-family: courier;
+    position: absolute
+}
+/* .user{
+    color: rgb(180, 61, 25);
+} */
+.body{
+    background-color: black;
+}
+
+.a1{
+    padding-left: 130px;
+    padding-top: 50px;
+    padding-bottom: 24px;
+}
+.log{
+    /* padding-bottom: 20px; */
+    margin-left: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px; 
+
+}
+.n1{
+    padding-top: 40px;
+    padding-left: 57px;
+}
+.nxt{
+    padding-top: 6px;
+    padding-left: 15px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: courier;
+    background-color: rgb(218, 81, 81);
+}

@@ -1,0 +1,74 @@
+.a{
+    margin-top: 80px;
+    margin-left: 470px;
+    margin-right:470px;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 100px;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 15px silver;
+    position: absolute;
+}
+.a1{
+    padding-left: 110px;
+    /* padding-top: px; */
+    font-family: courier;
+    color: white;
+    /* background-color: red; */
+    /* position: absolute; */
+}
+/* .aa1{
+    
+    background-color: aqua;
+} */
+.f{
+    padding-top: 20px;
+    padding-left: 70px;
+    font-family: courier;
+    color: white;
+}
+.body{
+    background-color: black;
+    /* position: relative; */
+}
+.sub{
+    font-family: courier;
+    margin-top: 30px;
+    margin-left: 23px;
+    background-color: silver;
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 35px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    color: black;
+}
+.p1{
+    font-size: 30px;
+}
+/* .pass{
+    border-color: gray;
+    border-radius: 5px;
+    
+} */
+.but{
+    /* margin-top: 20px; */
+    margin-left: 30px;
+    margin-top: 60px;
+    margin-bottom: -40px;
+}
+.back{
+    background-color:black;
+    font-family: courier;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding-left: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}

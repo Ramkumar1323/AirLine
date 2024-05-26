@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newuser.css">
+    <title>Document</title>
+</head>
+<body class="body">
+    <form id="form">
+    <div class="a">
+    <div class="a1">
+    <!-- <div class="user"><p>Create New User</p></div> -->
+    <p>First Name   :</p>
+    <input type="text" id="fname" onclick= Removetag(id)>
+    <div id="fname1"></div>
+    <p>Last Name    :</p>
+    <input type="text" id="lname" onclick= Removetag(id)>
+    <div id="lname1"></div>
+    <p>Address      :</p>
+    <input type="text" id="address">
+    <p>Email Id     :</p>
+    <div class="e"><input type="email" id="email" onclick= Removetag(id)></div>
+    <div id="email1"></div>
+    <p>Phone Number :</p>
+    <input type="text" id="phone" onclick= Removetag(id)>
+    <div id="phone1"></div>
+    <p>Password      :</p>
+    <input type="password" id="password" onclick= Removetag(id)>
+    <div id="password1"></div>
+    <p>Re-type Password      :</p>
+    <input type="password" id="re-typepassword">
+    <div id="pass1"></div>
+    
+     <a href=""><div class="n1"><input type="button" value="Next" class="nxt" onclick=GetUserData()></div></a>
+    </div>
+</form>
+    <div class="log">
+    <p>already have an Account...? please <a href="login.html">login</a></p>
+    </div>
+    </div>
+    <script src="newuser.js"></script>
+</body>
+</html>

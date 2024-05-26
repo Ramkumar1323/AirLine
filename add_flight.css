@@ -1,0 +1,40 @@
+.body{
+    background-color: black;
+    color: white;
+    font-family: courier;
+}
+
+.all{
+    /* background-color:blue; */
+    margin-left: 400px;
+    margin-right: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+    box-shadow: 2px 5px 3px silver;
+    border-radius: 10px;
+}
+.all2{
+    /* background-color: aliceblue; */
+    margin-left: 80px;
+    font-size: 13px;
+
+}
+.but{
+    background-color: silver;
+    color: black;
+    border: none;
+    font-family: courier;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.but:hover{
+    box-shadow: 5px 1px 7px gray;
+    background-color: black;
+    color: silver;
+}

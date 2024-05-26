@@ -1,0 +1,98 @@
+.round{
+    background-color: black;
+    font-family: courier;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.n{
+    display: inline-block;
+    padding-left: 15px;
+    color: white;
+    font-family: courier;
+}
+.para{
+    display: inline-block;
+}
+.para2{
+    display: inline-block;
+}
+.b{
+    border: none;
+    background-color: black;
+    margin-right: 950px;
+}
+.h{
+    color: white;
+    font-family: courier;
+    background-color: black;
+}
+.s{
+    font-family: courier;
+    color: white;
+    padding-left: 80px;
+}
+.body{
+    background-color: black;
+}
+.p1{
+    color: white;
+    font-family: courier;
+    font-size: 35px;
+    padding-left: 15px;
+}
+.p2{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+    margin-left: 30px;
+}
+.p3{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+    margin-left: 30px;
+}
+.p4{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+}
+.p5{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.p6{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+    margin-left: 30px;
+}
+.p7{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+}
+.p8{
+    color: black;
+    font-family: courier;
+    display: inline-block;
+    margin-left: 30px;
+}
+.p9{
+    color: black;
+    font-family: courier;    
+    display: inline-block;margin-left: 30px;
+}
+.a{
+    background-color:silver;
+    font-weight: bold;
+}

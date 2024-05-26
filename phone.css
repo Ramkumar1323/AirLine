@@ -1,0 +1,28 @@
+.a{
+    margin-top: 60px;
+    margin-left: 430px;
+    margin-right: 400px;
+    box-shadow: 5px 5px 10px 15px rgba(103, 232, 236, 0.705);
+    background-color: black;
+    font-family: courier;
+    color: white;
+    border-radius: 15px;
+}
+.a1{
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+.but{
+    background-color: rgb(116, 179, 53);
+    color: white;
+    font-family: courier;
+    /* border: none; */
+}
+.body{
+    background-color: black;
+}
+.e{
+    padding-left: 87px;
+    padding-bottom: 10px;
+}

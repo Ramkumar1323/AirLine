@@ -1,0 +1,328 @@
+.round{
+    background-color: black;
+    font-family: courier;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 25px;
+    border-radius: 50px;
+    display: inline-block;
+}
+.n{
+    display: inline-block;
+    padding-left: 15px;
+    color: white;
+    font-family: courier;
+}
+.para{
+    display: inline-block;
+}
+.para2{
+    display: inline-block;
+}
+.par2{
+    display: inline;
+    margin-left: 80px;
+}
+.b{
+    border: none;
+    background-color: black;
+    /* background-color: black; */
+    margin-right: 950px;
+}
+.h{
+    color: white;
+    /* padding-left: 950px; */
+    font-family: courier;
+}
+.s{
+    font-family: courier;
+    color: white;
+    /* margin-left: 80px; */
+}
+.i1{
+    padding-left: 120px;
+}
+.i0{
+    padding-left: 50px;
+}
+.i2{
+    padding-left: 120px;
+}
+.i3{
+    padding-left: 170px;
+}
+.i4{
+    padding-left: 170px;
+}
+.i5{
+    padding-left: 170px;
+}
+.i6{
+    padding-left: 120px;
+}
+.s2{
+    padding-left: 143px;
+}
+.s1{
+    padding-left: 40px;
+}
+.s3{
+    padding-left: 150px;
+}
+.s4{
+    padding-left: 160px;
+}
+.s5{
+    padding-left: 145px;
+}
+.s6{
+    padding-left: 155px;
+}
+.s7{
+    padding-left: 170px;
+    padding-right: 52px;
+}
+.p1{
+    background-color: black;
+    color: white;
+    
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-bottom: 3px;
+  
+}
+.f3{
+    display: inline-block;
+    padding-top: 30px;
+    margin-right: 40px;
+    /* background-color: aqua; */
+    /* padding-right: 500px; */
+    /* padding-bottom: 30px; */
+}
+.f1{
+    display: inline-block;
+    padding-left: 40px;
+}
+.f2{
+    display: inline-block;
+    padding-left: 10px;
+}
+.body{
+    background-color: black;
+    overflow: auto;
+    
+}
+.a2{
+    background-color: black;
+    color: white;
+    font-family: courier;
+    border-radius: 10px;
+    display: inline-block;
+    padding-bottom: 20px;
+    padding-right: 17px;
+}
+.pp1{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp1:hover{
+    background-color: rgb(240, 144, 144);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(211, 142, 5);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp2:hover{
+    background-color: rgb(193, 216, 177);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(53, 235, 84);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp3:hover{
+    background-color: rgb(122, 235, 210);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(14, 236, 236);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp4:hover{
+    background-color: rgb(21, 142, 199);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(22, 71, 231);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp5:hover{
+    background-color: rgb(185, 91, 223);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(197, 9, 214);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp6:hover{
+    background-color: rgb(204, 123, 170);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(235, 64, 64);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.pp7:hover{
+    background-color: rgb(216, 128, 128);
+    color: rgb(204, 226, 162);
+    box-shadow: 3px 3px 7px 7px rgb(230, 19, 201);
+    transition: background-color 4s ,box-shadow 1.5s ;
+    /* transition: box-shadow 2s; */
+}
+.but2{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: courier;
+    margin-bottom: 4px;
+}
+.but2:hover{
+    box-shadow: 3px 3px 6px 5px silver;
+}
+.but3{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: courier;
+    margin-bottom: 4px;
+}
+.but3:hover{
+    box-shadow: 3px 3px 6px 5px silver;
+}
+.pp2{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp3{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp4{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp5{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp6{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.pp7{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    border-radius: 60px;
+    background-color: black;
+    color: rgb(216, 211, 204);
+    font-family: courier;
+}
+.a2:hover{
+    transition: box-shadow 2s;
+       box-shadow: 5px 3px 10px 10px rgba(232, 238, 238, 0.705);
+
+}
+.but1{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    background-color:black;
+    font-family: courier;
+}
+.but{
+    display: inline-block;
+    padding-left: 20px;
+    /* padding-bottom: 20px; */
+}
+/* .in1{
+    background-color: blue; */
+    /* border: none;
+} */
+.f03{
+   padding-right: 700px;
+   padding-left: 20px;
+   /* padding-bottom: 40px; */
+    /* padding-top: 50px; */
+    /* padding-bottom: 40px; */
+}
+
+.a{
+    /* margin-left: 850px; */
+    margin-bottom: 30px;
+    /* background-color: rgb(30, 53, 53);     */
+}
