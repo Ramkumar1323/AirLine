@@ -2,8 +2,8 @@
 class FlightInfo {      
 	FlightId    
 	CompanyName 
-	From        
-	To   
+	Fromlocation        
+	Tolocation   
     Time      
 	TicketPrice 
 	RunningDays 
@@ -16,8 +16,8 @@ function AddFlight() {
    
     values.FlightId =  document.getElementById("id").value;
     values.CompanyName =  document.getElementById("name").value;
-    values.From =  document.getElementById("from").value;
-    values.To =  document.getElementById("to").value;
+    values.Fromlocation =  document.getElementById("from").value;
+    values.Tolocation =  document.getElementById("to").value;
     values.Time =  document.getElementById("time").value;
     values.TicketPrice =  document.getElementById("price").value;
     values.RunningDays =  document.getElementById("days").value;

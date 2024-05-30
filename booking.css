@@ -65,21 +65,27 @@
 }
 .s2{
     padding-left: 143px;
+    overflow: hidden;
 }
 .s1{
-    padding-left: 40px;
+    /* padding-left: ; */
+    overflow: hidden;
 }
 .s3{
     padding-left: 150px;
+    overflow: hidden;
 }
 .s4{
     padding-left: 160px;
+    overflow: hidden;
 }
 .s5{
     padding-left: 145px;
+    overflow: hidden;
 }
 .s6{
     padding-left: 155px;
+    overflow: hidden;
 }
 .s7{
     padding-left: 170px;
@@ -94,10 +100,27 @@
     margin-bottom: 3px;
   
 }
+.p11{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.butin{
+    color: white;
+    background-color: rgb(75, 75, 220);
+    margin-left: 630px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    border-radius: 50px;
+    font-family: courier;
+    border: none;
+}
 .f3{
     display: inline-block;
     padding-top: 30px;
-    margin-right: 40px;
+    margin-right: 5px;
     /* background-color: aqua; */
     /* padding-right: 500px; */
     /* padding-bottom: 30px; */
@@ -107,6 +130,10 @@
     padding-left: 40px;
 }
 .f2{
+    display: inline-block;
+    padding-left: 10px;
+}
+.f31{
     display: inline-block;
     padding-left: 10px;
 }
@@ -201,6 +228,8 @@
     padding-bottom: 15px;
     font-family: courier;
     margin-bottom: 4px;
+    width: 1150px;
+    overflow: hidden;
 }
 .but3:hover{
     box-shadow: 3px 3px 6px 5px silver;

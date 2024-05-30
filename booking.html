@@ -24,17 +24,25 @@
      <div class="a2">      
     <div class="f1">
     <p>From :</p>
-        <input type="text" class="in1">
+        <input type="text" class="in1" id="from">
+        <div id="ff1"></div>
+        <!-- <p>*from is required</p> -->
     </div>
     <div class="f2">
         <p>To :</p>
-        <input type="text">
+        <input type="text" id="to">
+        <div id="ff2"></div>
+        <!-- <p>*from is required</p> -->
     </div>
-    <input type="date" name="date" id="">
-    <div class="but"><input type="button" value="Find" class="but1"></div>
+    <div class="f31">
+    <input type="date" name="date" id="date">
+    <div id="ff3"></div>
+    <!-- <p>*required</p> -->
+</div>
+    <div class="but"><input type="button" value="Find" class="but1" id="find" onclick=remove(),Searchflight()></div>
     </div>
 </div> 
-    <div class="p1"><p><span class="i0">Flight ID</span><span class="i1">Flight Name</span><span class="i2">From :</span><span class="i3">To :</span><span class="i4">Date :</span><span class="i5">Ticket Price :</span><span class="i6">Avil.Seat</span></P></div>
+    <div class="p1"><p><span class="i0">Flight ID</span><span class="i1">Flight Name</span><span class="i2">From :</span><span class="i3">To :</span><span class="i4">Date :</span><span class="i5">Ticket Price :</span></P></div>
     <div id="buttons">
     <!-- <button class="but2"  value="isj"><span class="s1">2AH3</span><span class="s2">Indigo</span><span class="s3">Chennai</span><span class="s4">Mumbai</span><span class="s5">20/08/2025</span><span class="s6">$299</span><span class="s7">18</span></button>
     <button class="but3"  value="123"><span class="s1">2AH3</span><span class="s2">Indigo</span><span class="s3">Chennai</span><span class="s4">Mumbai</span><span class="s5">20/08/2025</span><span class="s6">$299</span><span class="s7">18</span></button> -->
