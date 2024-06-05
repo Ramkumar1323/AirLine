@@ -37,7 +37,7 @@ async function UserLogin(vale1232) {
       // mode : "no-cors",
       headers : {
         'Content-Type':'application/json',
-        'Access-Control-Allow-Origin' : 'null',
+        // 'Access-Control-Allow-Origin' : 'null',
       },
     body : JSON.stringify(vale1232),
     }).then(res => {
@@ -53,9 +53,9 @@ async function UserLogin(vale1232) {
         val1.innerHTML = '<p id = "val1"> * Wrong Password </p>'
       }
       if (data.StatusCode === "200") {
-        document.cookie = 'token ='+data.Message+'; path=/ ' ;
+        sessionStorage.setItem('token',data.Message) ;
        alert("Userlogin successfully...!!!!")
-      //  redirect()
+       redirect()
       }
       console.log("datagvbhnjm----------",data)
       const tokkk = getToken();
@@ -77,10 +77,8 @@ function redirect() {
 
 function getToken() {
   console.log("fromkijsijidsojjds--d----")
-  const value1 = '; '+document.cookie+'';
-  console.log("fromkijsijidsojjds--d----",document.cookie)
-  const parts = value1.split('; token=');
-  if (parts.length == 2) return parts.pop().split(';').shift();
+  var toke = sessionStorage.getItem('token')
+  return toke
 }
 
 

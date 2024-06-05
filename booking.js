@@ -17,7 +17,15 @@ function redirect(){
 }
 
 function Display1(id){
-    console.log("val.............",id) 
+  var date =  document.getElementById("date").value;
+  if (date == "") {
+    var date1 = new Date();
+    sessionStorage.setItem('date',date1.toISOString().slice(0,10))
+  }else{
+    sessionStorage.setItem('date',date)
+  }
+    console.log("val.............",id,date) 
+    
     sessionStorage.setItem('id',id)
     var val = sessionStorage.getItem('id')
 
@@ -32,7 +40,7 @@ async function GetAllFlight(){
         method : 'GET',
         headers : {
             'Content-Type':'application/json',
-            'Access-Control-Allow-Origin' : 'null',
+            // 'Access-Control-Allow-Origin' : 'null',
         }
          
       }).then(res => {return res.json()})
